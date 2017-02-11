@@ -17,7 +17,7 @@ function Cat (name, age ) {
 Cat.prototype = {
   dance: function () {
     message.innerHTML = 'My dear cat ' + this.name + ' is dancing!';
-    document.getElementById('imageAction').src = 'img/eating.gif';
+    document.getElementById('imageAction').src = 'img/dance.gif';
   },
 
   eat: function () {
